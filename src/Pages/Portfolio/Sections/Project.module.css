@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', 'san-serif';
+    color: grey;
+}
+.heading{
+	padding: 2rem 0rem 0rem 0rem;
+	font-size: 3.5rem;
+	color: #a615a8;
+	font-weight: 600;
+	text-align: center;
+}
+.ParentCard{
+	min-height: 100vh;
+	width: 100%;
+	padding: 2rem 2rem;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 2rem;
+}
+.Card{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 320px;
+	min-width: 18rem;
+	height: 400px;
+	padding: 0.5rem 1rem;
+	border-radius: 1rem;
+	background-color: #111;
+	transition: all linear 0.2s;
+}
+.Card:hover{
+	box-shadow: 0px 5px 20px 10px rgb(10, 10, 10);
+}
+.Image{
+	background-color: #000000;
+	border-radius: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Image img{
+	width: 18rem;
+	border-radius: 1rem;
+}
+.Stack{
+	font-size: 1rem;
+}
+.Description{
+	font-size: 1rem;
+}
+.btn{
+	text-decoration: none;
+	background-color: rgb(138, 43, 226);
+	font-family:'Montserrat', 'san-serif' ;
+	width: 100%;
+	padding: 1rem 2rem 1rem 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 1rem;
+	color: white;
+	cursor: pointer;
+	pointer-events: all;
+	transition: all linear 0.1s;
+}
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin: 1rem 0;
+}
+
+.techItem {
+  background-color: rgba(138, 43, 226, 0.1);
+  color: #8a2be2;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  border: 1px solid #8a2be2;
+}
+.btn:hover{
+	background-color: rgb(89, 18, 154);
+}
+

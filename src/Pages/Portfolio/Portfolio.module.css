@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Montserrat', 'san-serif';
+    color: grey;
+}
+.MainBpdy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+}
+.Skills{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem 3rem;
+  margin-top: 2rem;
+}
+.skill-heading{
+	padding: 2rem 0rem;
+	font-size: 3.5rem;
+	color: #a615a8;
+}
+.skillsImg{
+	padding: 1rem 1rem;
+	gap: 5rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.banner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	padding: 1.2rem 1.2rem;
+	border: 0.6rem solid #a615a8;
+	border-radius: 50%;
+  cursor: pointer;
+}
+.img{
+	width: 4rem;
+
+}
+.banner:hover{
+  transform: rotate(360deg) scale(1.1);
+  transition: all linear 0.3s;
+}
+.center{
+  width: 50vw;
+  height: 2px;
+	background-color:  grey;
+}
+.line{
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+	
+}
+.mainProject{
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Projects{
+	padding: 2rem 0rem;
+}
+
+@media (max-width: 800px){
+  .skillsImg{
+    gap: 3rem;
+  }
+}
+@media (max-width: 500px){
+  .banner img{
+   width: 3rem;
+  }
+}
+@media (max-width: 450px){
+  .Skills{
+    padding: 2rem 1rem;
+  }
+}
