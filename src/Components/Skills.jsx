@@ -10,6 +10,8 @@ import githubImg from "../assets/github.jpg"
 import pythonImg from "../assets/python.png"
 import mongodbImg from '../assets/mongodb.png'
 import nodejsImg from '../assets/nodejs.png'
+import sqlImg from '../assets/sql.png'
+
 const Skills = () => {
 	const [SkillSet, setSkillSet] = useState([
     reactImg,
@@ -21,7 +23,8 @@ const Skills = () => {
     mongodbImg,
     tailwindImg,
 		githubImg,
-    nodejsImg
+    nodejsImg,
+    sqlImg
   ]);
 	return (
 		<>
