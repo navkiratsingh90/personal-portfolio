@@ -2,6 +2,7 @@ import tictactoe from './assets/tictactoe.png'
 import portfolio from './assets/portfolio.png'
 import todo from './assets/todo.png'
 import rm from './assets/rm.png'
+import game from './assets/game.png'
 
 
 export const ProjectList = [{
@@ -44,5 +45,15 @@ export const ProjectList = [{
     features: ["User Authentication: Secure signup/login with email verification and password recovery.", "Product Listings: Sellers can add products with detailed descriptions, images, pricing, and category selection.","Advanced Filters & Sorting: Users can filter items by price, brand, fuel type (for vehicles), and category.","Wishlist: Buyers can save products they’re interested in for later.",":User Dashboard – Manage products, wishlist, and profile. ","Admin Dashboard – Manage users, product categories, and monitor marketplace activity with charts."],
     githubUrl: "https://github.com/navkiratsingh90/Resale-Marketplace",
     additionalInfo: "More details about challenges, scope, etc."
-  }
+  },
+  {
+    id: 5,
+    title: "Memory game",
+    imageUrl: game,
+    description: "A basic memory game which test human's memory",
+    techStack: ["html","css","javascript"],
+    features: ["Users can play this game to test their memory by remembering images and mapping them after they are flipped"],
+    githubUrl: "https://github.com/navkiratsingh90/memory-game",
+    additionalInfo: "More details about challenges, scope, etc."
+  },
 ]

@@ -37,12 +37,12 @@ const Home = () => {
                       <p className={styles.education}>
                           I am currently persuing B.Tech Computer Science and
                           Engineering in Guru Nanak Dev University, Amritsar,
-                          Punjab, in 4th semester.
+                          Punjab, in 5th semester.
                       </p>
                       <p className={styles.interest}>
                           My field of interest is Web Development. I'm a
                           beginner with React and have decent knowledge in HTML,
-                          CSS, JS and C++.
+                          CSS, JS and C++, Node js, MongoDB, PostgreSQL, Express Js.
                       </p>
                       <Button value="Ask More..." />
                   </div>
