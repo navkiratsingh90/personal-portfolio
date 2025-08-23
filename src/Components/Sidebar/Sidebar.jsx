@@ -309,17 +309,14 @@ const Sidebar = ({ isOpen, toggleSidebar, navigateTo, activePage }) => {
       </div>
       
       <div className={styles.socialContainer}>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+        <a href="https://www.github.com/navkiratsingh90" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
           <FaGithub />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+        <a href="https://www.linkedin.com/in/navkirat-singh-001246231/" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
           <FaLinkedin />
         </a>
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
           <FaTwitter />
-        </a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
-          <FaInstagram />
         </a>
       </div>
       
