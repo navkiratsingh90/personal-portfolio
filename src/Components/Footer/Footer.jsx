@@ -1,8 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faTwitter, faFacebook } from "@fortawesome/free-brands-svg-icons";
 import styles from './Footer.module.css'
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -47,13 +46,13 @@ const Footer = () => {
                   <h3 className={styles["footer-heading"]}>/ Socials</h3>
                   <div className={styles['social-icons']}>
                       <Link className={styles["footer-Link"]}>
-                          <FontAwesomeIcon icon={faInstagram} size="lg" />
+                         <FaInstagram/>
                       </Link>
                       <Link className={styles["footer-Link"]}>
-                          <FontAwesomeIcon icon={faTwitter} size="lg" />
+                        <FaTwitter/>
                       </Link>
                       <Link className={styles["footer-Link"]}>
-                          <FontAwesomeIcon icon={faFacebook} size="lg" />
+                         <FaFacebook/>
                       </Link>
                   </div>
               </div>
